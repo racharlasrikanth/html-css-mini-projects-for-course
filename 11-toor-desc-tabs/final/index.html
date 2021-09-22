@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Tabs</title>
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>Google Meet</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque et
+          nesciunt vel.
+        </p>
+      </div>
+
+      <!-- about -->
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./hero-img.jpg" alt="" />
+          <a
+            class="meet-container"
+            href="https://meet.google.com"
+            target="_blank"
+          >
+            <i class="fab fa-google meet-icon"></i>
+          </a>
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="meetings">meetings</button>
+            <button class="tab-btn" data-id="contact">contact</button>
+            <button class="tab-btn" data-id="support">support</button>
+          </div>
+
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="meetings">
+              <h4>meetings</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident, aperiam voluptatem, quae reiciendis minima quasi
+                corrupti voluptatibus, distinctio assumenda magnam fuga odio
+                esse maxime sit. Harum vitae cumque accusantium nam. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Maxime nisi, ab
+                sapiente, quod, ipsam natus placeat aut dolor tempore eius minus
+                adipisci reiciendis. Sunt quod numquam architecto, asperiores
+                ducimus aspernatur?
+              </p>
+            </div>
+            <!-- single item end -->
+            <!-- single item -->
+            <div class="content" id="contact">
+              <h4>contact</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident, aperiam voluptatem, quae reiciendis minima quasi
+                corrupti voluptatibus, distinctio assumenda magnam fuga odio
+                esse maxime sit. Harum vitae cumque accusantium nam. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Quidem, nemo.
+              </p>
+            </div>
+            <!-- single item end -->
+            <!-- single item -->
+            <div class="content" id="support">
+              <h4>support</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident, aperiam voluptatem, quae reiciendis minima quasi
+                corrupti voluptatibus, distinctio assumenda magnam fuga odio
+                esse maxime sit. Harum vitae cumque accusantium nam. Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Ipsa voluptatum
+                officiis, mollitia hic tenetur explicabo alias quis veniam enim.
+                Architecto.
+              </p>
+            </div>
+            <!-- single item end -->
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </body>
+</html>
