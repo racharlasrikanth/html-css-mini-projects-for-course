@@ -203,8 +203,21 @@ Slider
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: var(--clr-primary-9);
   transition: var(--transition);
+}
+.slide::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  transition: var(--transition);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+  opacity: 0;
+}
+.slide:hover::after {
+  opacity: 1;
 }
 .slide-img {
   height: 100%;
@@ -212,7 +225,7 @@ Slider
   transition: var(--transition);
 }
 .slide:hover img {
-  transform: scale(1.07) rotate(2deg);
+  transform: scale(1.07);
   opacity: 0.91;
 }
 .prevBtn,
