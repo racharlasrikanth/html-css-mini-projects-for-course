@@ -219,7 +219,7 @@ main {
 }
 .btn-hero {
   font-family: var(--ff-secondary);
-  text-transform: lowercase;
+  text-transform: uppercase;
   background: transparent;
   color: var(--clr-black);
   letter-spacing: var(--spacing);
@@ -237,6 +237,6 @@ main {
   color: var(--clr-white);
   background: var(--clr-black);
 }
-/* .btn-hero:active {
+.btn-hero:active {
   transform: scale(0.92);
-} */
+}
