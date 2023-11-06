@@ -1,2 +1,2 @@
-const data = "Constitutional India";
+const data = "Pan world";
 console.log(data);
