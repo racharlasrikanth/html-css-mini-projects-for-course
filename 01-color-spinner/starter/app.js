@@ -1,2 +1,2 @@
-const data = 'hello';
+const data = "Constitutional India";
 console.log(data);
